@@ -81,7 +81,7 @@ const Extra = () => {
             
          
             <span className="content-animate block font-mono text-[10px] font-bold tracking-[0.4em] text-gray-400 mb-6 uppercase">
-              // {label}
+               {label}
             </span>
             
            
