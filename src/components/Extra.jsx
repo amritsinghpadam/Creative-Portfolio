@@ -53,7 +53,7 @@ const Extra = () => {
         );
       }
 
-      // Internal Content Animation
+    
       const elements = card.querySelectorAll('.content-animate');
       master.from(elements, {
         opacity: 0,
@@ -76,15 +76,15 @@ const Extra = () => {
           className="step-card absolute inset-0 w-full h-full flex flex-col justify-center items-center px-8 md:px-20"
           style={{ backgroundColor: color }}
         >
-          {/* Main Content Box with the Left Border you liked */}
+          
           <div className="max-w-5xl w-full border-l border-black/10 pl-8 md:pl-16 py-10 relative">
             
-            {/* Minimalist Tech Label */}
+         
             <span className="content-animate block font-mono text-[10px] font-bold tracking-[0.4em] text-gray-400 mb-6 uppercase">
               // {label}
             </span>
             
-            {/* Scaled-down heading (approx 3.5rem - 4.5rem max) */}
+           
             <h2
               className="content-animate text-black font-serif font-medium tracking-tight leading-[1.1] mb-8"
               style={{ fontSize: 'clamp(2.2rem, 5vw, 4rem)' }}
@@ -92,7 +92,7 @@ const Extra = () => {
               {heading}
             </h2>
             
-            {/* Refined subtext */}
+         
             <p className="content-animate max-w-xl text-gray-500 font-sans text-sm md:text-lg leading-relaxed opacity-80">
               {sub}
             </p>
