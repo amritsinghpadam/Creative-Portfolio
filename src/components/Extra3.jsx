@@ -4,7 +4,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const StickyJourney = () => {
+const Extra3 = () => {
   const containerRef = useRef(null);
   const leftWrapperRef = useRef(null);
   const leftContentRef = useRef(null);
@@ -227,4 +227,4 @@ const StickyJourney = () => {
   );
 };
 
-export default StickyJourney;
+export default Extra3;

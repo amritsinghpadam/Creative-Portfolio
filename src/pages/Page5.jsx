@@ -8,7 +8,7 @@ import video2 from '../components/vivi4.mp4';
 
 gsap.registerPlugin(useGSAP, SplitText, ScrollTrigger);
 
-const AnimatedText = () => {
+const Page5 = () => {
   const containerRef = useRef(null);
   const textRef = useRef(null);
   const formRef = useRef(null);
@@ -143,4 +143,4 @@ const AnimatedText = () => {
   );
 };
 
-export default AnimatedText;
+export default Page5;

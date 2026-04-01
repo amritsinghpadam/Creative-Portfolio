@@ -29,7 +29,7 @@ const steps = [
   },
 ];
 
-const AppleStyleText = () => {
+const Extra = () => {
   const container = useRef(null);
 
   useGSAP(() => {
@@ -105,4 +105,4 @@ const AppleStyleText = () => {
   );
 };
 
-export default AppleStyleText;
+export default Extra;

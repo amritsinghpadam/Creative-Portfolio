@@ -4,7 +4,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Extra2 from '../components/Extra2'
 gsap.registerPlugin(ScrollTrigger);
 
-const StickyJourney = () => {
+const Page4 = () => {
   const containerRef = useRef(null);
   const leftContentRef = useRef(null);
   const rightColumnRef = useRef(null);
@@ -275,4 +275,4 @@ const StickyJourney = () => {
   );
 };
 
-export default StickyJourney;
+export default Page4;

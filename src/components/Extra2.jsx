@@ -6,7 +6,7 @@ import { ScrollToPlugin } from 'gsap/ScrollToPlugin'; // 1. Import the plugin
 // 2. Register the ScrollToPlugin
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
-const NextStepCTA = () => {
+const Extra2 = () => {
   const sectionRef = useRef(null);
   const kickerRef = useRef(null);
   const titleRef = useRef(null);
@@ -131,4 +131,4 @@ const styles = {
   }
 };
 
-export default NextStepCTA;
+export default Extra2;
