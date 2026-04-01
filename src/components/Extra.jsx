@@ -46,7 +46,6 @@ const Extra = () => {
     });
 
     cards.forEach((card, i) => {
-      // Entrance: Clip-path reveal (The "Unveiling" effect)
       if (i !== 0) {
         master.fromTo(card, 
           { yPercent: 100, clipPath: "inset(10% 0% 0% 0%)" },
